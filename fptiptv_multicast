@@ -1,0 +1,693 @@
+#EXTINF:0,[Địa Phương] THVL4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.1:30120
+#EXTINF:0,HTV7 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.10:30120
+#EXTINF:0,VTV2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.13:30120
+#EXTINF:0,KBS World FHD	
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.14:30120
+#EXTINF:0,BLUEANT EXTREME HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.15:30120
+#EXTINF:0,BLUEANT ENTERTAINMENT HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.16:30120
+#EXTINF:0,Cartoonito FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.17:30120
+#EXTINF:0,VTV4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.20:30120
+#EXTINF:0,ABC Australia
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.21:30120
+#EXTINF:0,[Địa Phương] BTV3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.22:30120
+#EXTINF:0,[Địa Phương] BPTV1
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.23:30120
+#EXTINF:0,BBC Earth FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.24:30120
+#EXTINF:0,[Địa Phương] THVL4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.25:30120
+#EXTINF:0,[Địa Phương] LTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.36:30120
+#EXTINF:0,SCTV10
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.37:30120
+#EXTINF:0,[Địa Phương] BPTV2
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.38:30120
+#EXTINF:0,CBeebies Cartoon HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.39:30120
+#EXTINF:0,[Địa Phương] Hà Nội 1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.42:30120
+#EXTINF:0,Quốc Hội HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.44:30120
+#EXTINF:0,ANIMAX HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.45:30120
+#EXTINF:0,DreamWorks Junior HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.48:30120
+#EXTINF:0,[Địa Phương] QRT HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.50:30120
+#EXTINF:0,VTC12
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.51:30120
+#EXTINF:0,BBC LifeStyle
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.52:30120
+#EXTINF:0,HBO HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.54:30120
+#EXTINF:0,[Địa Phương] PTP HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.58:30120
+#EXTINF:0,QPVN HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.61:30120
+#EXTINF:0,ANTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.63:30120
+#EXTINF:0,[Địa Phương] Hà Nội 2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.70:30120
+#EXTINF:0,BBC World News
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.74:30120
+#EXTINF:0,BabyFirst
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.80:30120
+#EXTINF:0,CINEMAX HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.86:30120
+#EXTINF:0,VTC14 FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.88:30120
+#EXTINF:0,Bloomberg
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.91:30120
+#EXTINF:0,Nhân Dân TV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.93:30120
+#EXTINF:0,Văn Hóa TV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.95:30120
+#EXTINF:0,VTV7 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.96:30120
+#EXTINF:0,[Địa Phương] VP HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.99:30120
+#EXTINF:0,VTV1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.105:30120
+#EXTINF:0,VTV2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.106:30120
+#EXTINF:0,VTV3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.107:30120
+#EXTINF:0,VTV4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.108:30120
+#EXTINF:0,VTV5 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.109:30120
+#EXTINF:0,VTV6 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.110:30120
+#EXTINF:0,VTV7 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.111:30120
+#EXTINF:0,VTV8 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.112:30120
+#EXTINF:0,VTV9 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.113:30120
+#EXTINF:0,BabyTV FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.116:30120
+#EXTINF:0,FTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.117:30120
+#EXTINF:0,Outdoor Channel FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.118:30120
+#EXTINF:0,Arirang
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.119:30120
+#EXTINF:0,ABC Australia
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.120:30120
+#EXTINF:0,NHK World
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.121:30120
+#EXTINF:0,CNA
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.122:30120
+#EXTINF:0,TV5
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.123:30120
+#EXTINF:0,DW FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.124:30120
+#EXTINF:0,Da Vinci HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.125:30120
+#EXTINF:0,National Geographic HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.126:30120
+#EXTINF:0,KIX FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.127:30120
+#EXTINF:0,CNBC
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.128:30120
+#EXTINF:0,CNN
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.129:30120
+#EXTINF:0,National WILD HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.130:30120
+#EXTINF:0,HTV3
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.132:30120
+#EXTINF:0,HTV Thể Thao FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.133:30120
+#EXTINF:0,HTVC Thuần Việt HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.134:30120
+#EXTINF:0,AXN HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.135:30120
+#EXTINF:0,TLC FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.137:30120
+#EXTINF:0,HTVC Ca Nhạc
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.138:30120
+#EXTINF:0,HTV1
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.142:30120
+#EXTINF:0,KIX FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.144:30120
+#EXTINF:0,[Địa Phương] ĐN1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.145:30120
+#EXTINF:0,BabyTV FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.146:30120
+#EXTINF:0,HTVC Phim HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.147:30120
+#EXTINF:0,Quốc Hội HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.148:30120
+#EXTINF:0,WB FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.149:30120
+#EXTINF:0,Animal Planet FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.150:30120
+#EXTINF:0,Discovery World FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.151:30120
+#EXTINF:0,Discovery Asia FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.152:30120
+#EXTINF:0,BOOMERANG FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.153:30120
+#EXTINF:0,CinemaWorld FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.154:30120
+#EXTINF:0,155
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.155:30120
+#EXTINF:0,BBC LifeStyle
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.157:30120
+#EXTINF:0,[Địa Phương] BPTV3
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.158:30120
+#EXTINF:0,VTC11 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.159:30120
+#EXTINF:0,BBC Earth FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.160:30120
+#EXTINF:0,Asian Food Network FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.161:30120
+#EXTINF:0,VTC2
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.162:30120
+#EXTINF:0,VTC3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.163:30120
+#EXTINF:0,[Địa Phương] QBTV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.164:30120
+#EXTINF:0,[Địa Phương] PTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.165:30120
+#EXTINF:0,VTV8 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.166:30120
+#EXTINF:0,GS Shop - VTVCab
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.167:30120
+#EXTINF:0,[Địa Phương] HBTV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.168:30120
+#EXTINF:0,ANTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.169:30120
+#EXTINF:0,[Địa Phương] THTG HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.170:30120
+#EXTINF:0,VOV TV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.171:30120
+#EXTINF:0,[Địa Phương] THTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.172:30120
+#EXTINF:0,[Địa Phương] ATV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.173:30120
+#EXTINF:0,[Địa Phương] PTQ
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.174:30120
+#EXTINF:0,[Địa Phương] BRT HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.175:30120
+#EXTINF:0,[Địa Phương] THGL HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.176:30120
+#EXTINF:0,[Địa Phương] LTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.177:30120
+#EXTINF:0,[Địa Phương] NTV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.178:30120
+#EXTINF:0,[Địa Phương] TN1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.179:30120
+#EXTINF:0,[Địa Phương] QTV3
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.180:30120
+#EXTINF:0,[Địa Phương] QTV1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.181:30120
+#EXTINF:0,[Địa Phương] KG1
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.182:30120
+#EXTINF:0,[Địa Phương] NTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.183:30120
+#EXTINF:0,[Địa Phương] TTV
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.184:30120
+#EXTINF:0,[Địa Phương] Ninh Bình HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.185:30120
+#EXTINF:0,[Địa Phương] Hà Nội 1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.186:30120
+#EXTINF:0,Music Box HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.187:30120
+#EXTINF:0,[Địa Phương] TTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.188:30120
+#EXTINF:0,[Địa Phương] BTV9 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.189:30120
+#EXTINF:0,VTC16 FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.190:30120
+#EXTINF:0,VTC12
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.192:30120
+#EXTINF:0,VTC11
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.193:30120
+#EXTINF:0,VTC10
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.194:30120
+#EXTINF:0,VTC9 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.195:30120
+#EXTINF:0,VTC8
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.196:30120
+#EXTINF:0,VTC7
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.197:30120
+#EXTINF:0,VTC6
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.198:30120
+#EXTINF:0,VTC5
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.199:30120
+#EXTINF:0,VTC4 FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.200:30120
+#EXTINF:0,HTVC
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.201:30120
+#EXTINF:0,VTC2
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.202:30120
+#EXTINF:0,VTC4 FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.204:30120
+#EXTINF:0,VTC6
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.207:30120
+#EXTINF:0,VTC7
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.208:30120
+#EXTINF:0,VTC8
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.209:30120
+#EXTINF:0,VTC9
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.210:30120
+#EXTINF:0,France24
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.211:30120
+#EXTINF:0,VTC11
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.212:30120
+#EXTINF:0,France24
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.213:30120
+#EXTINF:0,Outdoor Channel FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.215:30120
+#EXTINF:0,QPVN HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.217:30120
+#EXTINF:0,VTC13 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.218:30120
+#EXTINF:0,VTC10
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.219:30120
+#EXTINF:0,VTC14 FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.220:30120
+#EXTINF:0,VTC16 FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.221:30120
+#EXTINF:0,Discovery Asia FHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.223:30120
+#EXTINF:0,AXN HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.225:30120
+#EXTINF:0,FTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.227:30120
+#EXTINF:0,Cartoonito HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.231:30120
+#EXTINF:0,FTV UHD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.232:30120
+#EXTINF:0,HBO HD [Vi]
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.233:30120
+#EXTINF:0,National Geographic HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.235:30120
+#EXTINF:0,FPT Radio HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.244:30120
+#EXTINF:0,VTV6 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.245:30120
+#EXTINF:0,VTV3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.247:30120
+#EXTINF:0,VTV1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.249:30120
+#EXTINF:0,VTC13 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.250:30120
+#EXTINF:0,VTC3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.251:30120
+#EXTINF:0,VTC1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.2.254:30120
+#EXTINF:0,VTV1 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.1:30120
+#EXTINF:0,VTV2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.2:30120
+#EXTINF:0,VTV3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.3:30120
+#EXTINF:0,VTV4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.4:30120
+#EXTINF:0,VTV5 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.5:30120
+#EXTINF:0,VTV6 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.6:30120
+#EXTINF:0,VTV8 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.7:30120
+#EXTINF:0,VTV9 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.8:30120
+#EXTINF:0,Cartoonito HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.13:30120
+#EXTINF:0,WB HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.14:30120
+#EXTINF:0,CinemaWorld HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.15:30120
+#EXTINF:0,BOOMERANG HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.16:30120
+#EXTINF:0,CNN
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.17:30120
+#EXTINF:0,Bloomberg
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.18:30120
+#EXTINF:0,ABC Australia
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.19:30120
+#EXTINF:0,FTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.20:30120
+#EXTINF:0,BBC Earth HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.21:30120
+#EXTINF:0,BBC World News
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.22:30120
+#EXTINF:0,BBC LifeStyle 
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.23:30120
+#EXTINF:0,Discovery World HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.24:30120
+#EXTINF:0,Discovery Asia HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.25:30120
+#EXTINF:0,TLC HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.26:30120
+#EXTINF:0,Animal Planet HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.27:30120
+#EXTINF:0,BabyFirst
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.28:30120
+#EXTINF:0,National Geographic HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.31:30120
+#EXTINF:0,BabyTV HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.35:30120
+#EXTINF:0,Asian Food Network HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.36:30120
+#EXTINF:0,Outdoor Channel HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.37:30120
+#EXTINF:0,Da Vinci HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.38:30120
+#EXTINF:0,KIX HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.40:30120
+#EXTINF:0,VTC2
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.41:30120
+#EXTINF:0,VTC3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.42:30120
+#EXTINF:0,VTC4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.43:30120
+#EXTINF:0,VTC5
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.44:30120
+#EXTINF:0,VTC6
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.45:30120
+#EXTINF:0,VTC7
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.46:30120
+#EXTINF:0,VTC8
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.47:30120
+#EXTINF:0,VTC9 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.48:30120
+#EXTINF:0,VTC10 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.49:30120
+#EXTINF:0,VTC11
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.50:30120
+#EXTINF:0,VTC13 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.52:30120
+#EXTINF:0,VTC14 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.53:30120
+#EXTINF:0,VTC16 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.54:30120
+#EXTINF:0,HTV1
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.55:30120
+#EXTINF:0,HTV2 Vie Channel HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.56:30120
+#EXTINF:0,HTV3
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.57:30120
+#EXTINF:0,HTV Key
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.58:30120
+#EXTINF:0,HTV7 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.59:30120
+#EXTINF:0,HTV Thể thao HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.60:30120
+#EXTINF:0,Thuần Việt HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.61:30120
+#EXTINF:0,Thuần Việt HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.62:30120
+#EXTINF:0,HTVC Phim HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.63:30120
+#EXTINF:0,HTVC Gia đình HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.64:30120
+#EXTINF:0,Phụ Nữ
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.66:30120
+#EXTINF:0,Du lịch & Cuộc Sống HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.67:30120
+#EXTINF:0,KBS World HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.69:30120
+#EXTINF:0,France 24
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.71:30120
+#EXTINF:0,TV5
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.72:30120
+#EXTINF:0,NHK World
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.73:30120
+#EXTINF:0,Arirang
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.74:30120
+#EXTINF:0,DW HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.75:30120
+#EXTINF:0,CNA
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.76:30120
+#EXTINF:0,[Địa Phương] BTV6
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.78:30120
+#EXTINF:0,VTV Hyundai
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.79:30120
+#EXTINF:0,[Địa Phương] BPTV2
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.80:30120
+#EXTINF:0,[Địa Phương] BTV2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.81:30120
+#EXTINF:0,[Địa Phương] BTV4 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.82:30120
+#EXTINF:0,[Địa Phương] BTV11
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.84:30120
+#EXTINF:0,[Địa Phương] ĐN2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.85:30120
+#EXTINF:0,[Địa Phương] QTV3
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.86:30120
+#EXTINF:0,[Địa Phương] THVL2 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.87:30120
+#EXTINF:0,HTVC Shopping
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.89:30120
+#EXTINF:0,HBO HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.90:30120
+#EXTINF:0,HTVC Ca nhạc
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.92:30120
+#EXTINF:0,VTV3 HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.104:30120
+#EXTINF:0,Quốc hội HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.148:30120
+#EXTINF:0,QPVN HD
+#EXTVLCOPT:network-caching=1000
+udp://@225.1.4.217:30120
