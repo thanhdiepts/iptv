@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" tvg-shift=0 m3uautoload=1
-
+###http://gg.gg/iptvmedia247 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="KENH VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Logo_VTV1_HD.png",VTV1 HD  
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.23.3 (Linux;Android 11) ExoPlayerLib/2.11.7",network-caching=1000
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
