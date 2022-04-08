@@ -1,4 +1,5 @@
 #EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" tvg-shift=0 m3uautoload=1
+###http://gg.gg/iptvmedia247 
 #EXTINF:0,[Địa Phương] THVL4 HD
 #EXTVLCOPT:network-caching=1000
 udp://@225.1.2.1:30120
