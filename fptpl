@@ -27,51 +27,54 @@ https://vips-livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="1|VTV"  tvg-logo="https://i.ibb.co/HVRdGVT/VTV9-cc.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv9_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV9 HD  
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="htv1" group-title=""2|HTV"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Large_htv1.png",HTV1
+#EXTINF:-1 tvg-id="htv1" group-title="2|HTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Large_htv1.png",HTV1
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htv1_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htv2vie" group-title=""2|HTV"" tvg-logo="https://i.ibb.co/SB1JLYD/HTV2-cc.webp",Vie Channel - HTV2
+#EXTINF:-1 tvg-id="htv2vie" group-title="2|HTV" tvg-logo="https://i.ibb.co/SB1JLYD/HTV2-cc.webp",Vie Channel - HTV2
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/hda1/htv2hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htv3dreams" group-title=""2|HTV"" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ee/DreamsTV_logo_%282018-present%29.png/revision/latest?cb=20180824082826&path-prefix=vi",Dreams TV - HTV3
+#EXTINF:-1 tvg-id="htv3dreams" group-title="2|HTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ee/DreamsTV_logo_%282018-present%29.png/revision/latest?cb=20180824082826&path-prefix=vi",Dreams TV - HTV3
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htv3_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htv4key" group-title=""2|HTV"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png",HTV Key - HTV4
+#EXTINF:-1 tvg-id="htv4key" group-title="2|HTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png",HTV Key - HTV4
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htv4_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htv7hd" group-title=""2|HTV"" tvg-logo="https://khaimo.com/wp-content/uploads/2016/01/dua-tin-boi-nho-phap-luan-cong-htv7-phai-doi-mat-voi-nguy-co-gi.png",HTV7 HD
+#EXTINF:-1 tvg-id="htv7hd" group-title="2|HTV" tvg-logo="https://khaimo.com/wp-content/uploads/2016/01/dua-tin-boi-nho-phap-luan-cong-htv7-phai-doi-mat-voi-nguy-co-gi.png",HTV7 HD
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda1/htv7hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="htv9hd" group-title=""2|HTV"" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/07/16/628143-665121-HTV9HD.png",HTV9 HD
+#EXTINF:-1 tvg-id="htv9hd" group-title="2|HTV" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/07/16/628143-665121-HTV9HD.png",HTV9 HD
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda1/htv9hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="htvcphim" group-title=""2|HTV"C" tvg-logo="https://lh3.googleusercontent.com/proxy/WwfhhZhZU79P3dSwZ1fP0kpDRHjca9JeS6XOwZZIFQ7OOs8zgRvS9tOc3RDMULFVtRZk4-G345dj_x4KvMk3y-s0xjQeLSOupKUqTUanRJN83vZBhKI_Udo",HTVC Phim HD
+#EXTINF:0 tvg-id="htvthethaohd" group-title="2|HTV" tvg-logo="https://i.ibb.co/GTnjzYB/HTVThe-Thao.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/htvcthethao_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTV Thể Thao
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/htvcthethao_vhls.smil /chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="htvcphim" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/WwfhhZhZU79P3dSwZ1fP0kpDRHjca9JeS6XOwZZIFQ7OOs8zgRvS9tOc3RDMULFVtRZk4-G345dj_x4KvMk3y-s0xjQeLSOupKUqTUanRJN83vZBhKI_Udo",HTVC Phim HD
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda2/htvcmoviehd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="htvcdulich" group-title=""2|HTV"C" tvg-logo="https://cliptv.vn/themes/cliptv/img/list_channel/Chuyen_kenh/HTVC%20Du%20L%E1%BB%8Bch.png",HTVC Du Lịch
+#EXTINF:-1 tvg-id="htvcdulich" group-title="3|HTVC" tvg-logo="https://cliptv.vn/themes/cliptv/img/list_channel/Chuyen_kenh/HTVC%20Du%20L%E1%BB%8Bch.png",HTVC Du Lịch
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcdulich_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htvcgiadinh" group-title=""2|HTV"C" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/06/05/566530-Gia-Dinh.png",HTVC Gia Đình
+#EXTINF:-1 tvg-id="htvcgiadinh" group-title="3|HTVC" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/06/05/566530-Gia-Dinh.png",HTVC Gia Đình
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcgiadinh_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htvcphunu" group-title=""2|HTV"C" tvg-logo="https://lh3.googleusercontent.com/proxy/LrOWNn-mLzAx52g7NWiMQJ9upwpVGaDV743fSpzNlSNAzchkDMf9XtHliBLY7eCaWK7ZBO6hubLz809dqLMksxFK-Uao_cncFlMHA68n5huMqOUs4w",HTVC Phụ Nữ
+#EXTINF:-1 tvg-id="htvcphunu" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/LrOWNn-mLzAx52g7NWiMQJ9upwpVGaDV743fSpzNlSNAzchkDMf9XtHliBLY7eCaWK7ZBO6hubLz809dqLMksxFK-Uao_cncFlMHA68n5huMqOUs4w",HTVC Phụ Nữ
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcphunu_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htvcplus" group-title=""2|HTV"C" tvg-logo="https://cliptv.vn/themes/cliptv/img/list_channel/Chuyen_kenh/HTVC%20Plus%20HD.png",HTVC Plus
+#EXTINF:-1 tvg-id="htvcplus" group-title="3|HTVC" tvg-logo="https://cliptv.vn/themes/cliptv/img/list_channel/Chuyen_kenh/HTVC%20Plus%20HD.png",HTVC Plus
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcplus_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htvccanhac" group-title=""2|HTV"C" tvg-logo="https://lh3.googleusercontent.com/proxy/VfY76B-d9TzpDuNjZFAsTpRKbWDhhKG_F0YebcEJg9JEA0Rx65C58yJZpq3TEQIdPkN3toxvaFz2Lwr3-GzeZqpLE0xit-QW-bMX3Kw",HTVC Ca Nhạc
+#EXTINF:-1 tvg-id="htvccanhac" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/VfY76B-d9TzpDuNjZFAsTpRKbWDhhKG_F0YebcEJg9JEA0Rx65C58yJZpq3TEQIdPkN3toxvaFz2Lwr3-GzeZqpLE0xit-QW-bMX3Kw",HTVC Ca Nhạc
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcmusic_2000.stream/chunklist.m3u8
 
 
-#EXTINF:-1 tvg-id="htvcthuanviethd" group-title=""2|HTV"C" tvg-logo="https://lh3.googleusercontent.com/proxy/4I-9jLzA4N5Jtafqho8x2T83OKuRenv1iFw9VaWJ_p9D5iTbwIobjwRCORTeU7UUCKxjWOZB85Dc9F0nTQVjn-uBhftGIn5BMrY3_O3yx5hdE3EbVq5Lq8picecn9J-aNdg",HTVC Thuần Việt HD
+#EXTINF:-1 tvg-id="htvcthuanviethd" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/4I-9jLzA4N5Jtafqho8x2T83OKuRenv1iFw9VaWJ_p9D5iTbwIobjwRCORTeU7UUCKxjWOZB85Dc9F0nTQVjn-uBhftGIn5BMrY3_O3yx5hdE3EbVq5Lq8picecn9J-aNdg",HTVC Thuần Việt HD
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda1/htvcthuanviethd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="htvcthuanviet" group-title=""2|HTV"C" tvg-logo="http://img.hplus.com.vn/728x409/banner/2018/06/05/850471-ThuanViet.png",HTVC Thuần Việt
+#EXTINF:-1 tvg-id="htvcthuanviet" group-title="3|HTVC" tvg-logo="http://img.hplus.com.vn/728x409/banner/2018/06/05/850471-ThuanViet.png",HTVC Thuần Việt
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcthuanviet_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="htvcthethao" group-title=""2|HTV"C" tvg-logo="https://lh3.googleusercontent.com/proxy/9MbALSxOR0a5QsUsCW07XFI9P1t4AQUIEOmhzj_LV-NP6NZchKcWPM33I1RpEywUY9soZWeJuD1GawaLuizWBnvaFBWqToTBqXa5iG28d3-01PwDceVioQ",HTV Thể Thao
+#EXTINF:-1 tvg-id="htvcthethao" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/9MbALSxOR0a5QsUsCW07XFI9P1t4AQUIEOmhzj_LV-NP6NZchKcWPM33I1RpEywUY9soZWeJuD1GawaLuizWBnvaFBWqToTBqXa5iG28d3-01PwDceVioQ",HTV Thể Thao
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/chunklist_b2500000.m3u8
 
@@ -116,16 +119,6 @@ https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 
-
-#EXTINF:-1 tvg-id="foxs1" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Fox_Sports_1_logo.svg/1200px-Fox_Sports_1_logo.svg.png",Fox Sports HD
-#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
-https://vips-livecdn.fptplay.net/hda2/foxsports_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="foxs2" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7e/Fox_Sports_2_logo.png",Fox Sports 2 HD
-#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
-https://vips-livecdn.fptplay.net/hda3/foxsports2_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="foxs3" group-title="KENH NUOC NGOAI" tvg-logo="http://img.hplus.com.vn/728x409/banner/2019/07/16/894184-foxsport_3.png",Fox Sports 3 HD
-#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
-https://vips-livecdn.fptplay.net/hda2/foxsports3_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="axn" group-title="KENH NUOC NGOAI" tvg-logo="https://img.over-blog-kiwi.com/4/05/99/07/20191228/ob_5dfb77_870885.png",AXN HD
 #EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
 https://vips-livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
