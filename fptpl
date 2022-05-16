@@ -184,19 +184,19 @@ https://vips-livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.
 #EXTVLCOPT:http-user-agent="FPT Play"
 https://vips-livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/de/Logo_THVL3_HD.png",THVL1 HD
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/3FZpCTw/thvl1.webp",THVL1 HD
 #EXTVLCOPT:http-user-agent="FPT Play"
 https://vips-livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/Logo_THVL2_HD.png",THVL2 HD
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/3FZpCTw/thvl1.webp",THVL2 HD
 #EXTVLCOPT:http-user-agent="FPT Play"
 https://vips-livecdn.fptplay.net/hda2/vinhlong2_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/de/Logo_THVL3_HD.png",THVL3 HD
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/pxfG4Nd/thvl3.webp",THVL3 HD
 #EXTVLCOPT:http-user-agent="FPT Play"
 https://vips-livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/de/Logo_THVL3_HD.png",THVL4 HD
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/n33qx5q/thvl4.webp",THVL4 HD
 #EXTVLCOPT:http-user-agent="FPT Play"
 http://livecdn.fptplay.net/hda3/vinhlong4hd_hls.smil/chunklist_b2500000.m3u8
 
