@@ -1,0 +1,266 @@
+#EXTM3U url-tvg="http://gg.gg/coocaaE" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
+#EXTINF:-1 tvg-id="vtv1hd" group-title="1|VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Logo_VTV1_HD.png",VTV1 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv2hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f2/VTV2_HD-0.png/revision/latest?cb=20201228133530&path-prefix=vi" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv2_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV2 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtv2_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv3hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d9/VTV3_HD_logo_2013-2014.png/revision/latest?cb=20201228132657&path-prefix=vi" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV3 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv4hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/42/VTV4_HD-0.png/revision/latest?cb=20201228133537&path-prefix=vi" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv4_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV4 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv5hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/ce/VTV5_HD.png/revision/latest?cb=20201123051540&path-prefix=vi" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv5hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV5 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv6hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d5/VTV6_HD_logo_2013-2014.png/revision/latest?cb=20201228132708&path-prefix=vi" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV6 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv7hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/80/VTV7_HD-0.png/revision/latest?cb=20200401224019&path-prefix=vi",VTV7 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv8hd" group-title="1|VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/69/VTV8_HD-0.png/revision/latest?cb=20201228133900&path-prefix=vi" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv8hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV8 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv9hd" group-title="1|VTV"  tvg-logo="https://i.ibb.co/HVRdGVT/VTV9-cc.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv9_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV9 HD  
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htv1" group-title="2|HTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Large_htv1.png",HTV1
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htv1_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htv2vie" group-title="2|HTV" tvg-logo="https://i.ibb.co/SB1JLYD/HTV2-cc.webp",Vie Channel - HTV2
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/hda1/htv2hd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htv3dreams" group-title="2|HTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ee/DreamsTV_logo_%282018-present%29.png/revision/latest?cb=20180824082826&path-prefix=vi",Dreams TV - HTV3
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htv3_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htv4key" group-title="2|HTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png",HTV Key - HTV4
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htv4_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htv7hd" group-title="2|HTV" tvg-logo="https://khaimo.com/wp-content/uploads/2016/01/dua-tin-boi-nho-phap-luan-cong-htv7-phai-doi-mat-voi-nguy-co-gi.png",HTV7 HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/htv7hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htv9hd" group-title="2|HTV" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/07/16/628143-665121-HTV9HD.png",HTV9 HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/htv9hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="htvthethaohd" group-title="2|HTV" tvg-logo="https://i.ibb.co/GTnjzYB/HTVThe-Thao.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/htvcthethao_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTV Thể Thao
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/htvcthethao_vhls.smil /chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcphim" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/WwfhhZhZU79P3dSwZ1fP0kpDRHjca9JeS6XOwZZIFQ7OOs8zgRvS9tOc3RDMULFVtRZk4-G345dj_x4KvMk3y-s0xjQeLSOupKUqTUanRJN83vZBhKI_Udo",HTVC Phim HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/htvcmoviehd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcdulich" group-title="3|HTVC" tvg-logo="https://cliptv.vn/themes/cliptv/img/list_channel/Chuyen_kenh/HTVC%20Du%20L%E1%BB%8Bch.png",HTVC Du Lịch
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcdulich_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcgiadinh" group-title="3|HTVC" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/06/05/566530-Gia-Dinh.png",HTVC Gia Đình
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcgiadinh_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcphunu" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/LrOWNn-mLzAx52g7NWiMQJ9upwpVGaDV743fSpzNlSNAzchkDMf9XtHliBLY7eCaWK7ZBO6hubLz809dqLMksxFK-Uao_cncFlMHA68n5huMqOUs4w",HTVC Phụ Nữ
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcphunu_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcplus" group-title="3|HTVC" tvg-logo="https://cliptv.vn/themes/cliptv/img/list_channel/Chuyen_kenh/HTVC%20Plus%20HD.png",HTVC Plus
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcplus_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvccanhac" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/VfY76B-d9TzpDuNjZFAsTpRKbWDhhKG_F0YebcEJg9JEA0Rx65C58yJZpq3TEQIdPkN3toxvaFz2Lwr3-GzeZqpLE0xit-QW-bMX3Kw",HTVC Ca Nhạc
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcmusic_2000.stream/chunklist.m3u8
+
+
+#EXTINF:-1 tvg-id="htvcthuanviethd" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/4I-9jLzA4N5Jtafqho8x2T83OKuRenv1iFw9VaWJ_p9D5iTbwIobjwRCORTeU7UUCKxjWOZB85Dc9F0nTQVjn-uBhftGIn5BMrY3_O3yx5hdE3EbVq5Lq8picecn9J-aNdg",HTVC Thuần Việt HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/htvcthuanviethd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcthuanviet" group-title="3|HTVC" tvg-logo="http://img.hplus.com.vn/728x409/banner/2018/06/05/850471-ThuanViet.png",HTVC Thuần Việt
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcthuanviet_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="htvcthethao" group-title="3|HTVC" tvg-logo="https://lh3.googleusercontent.com/proxy/9MbALSxOR0a5QsUsCW07XFI9P1t4AQUIEOmhzj_LV-NP6NZchKcWPM33I1RpEywUY9soZWeJuD1GawaLuizWBnvaFBWqToTBqXa5iG28d3-01PwDceVioQ",HTV Thể Thao
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/chunklist_b2500000.m3u8
+
+
+#EXTINF:-1 tvg-id="blueantent" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Blue_ant_entertainment_logo.png",Blue Ant Entertainment
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="blueantext" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Blue_ant_extreme_logo.png",Blue Ant Extreme
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="kix" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/KIX_logo.svg/1200px-KIX_logo.svg.png",KIX
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="afchd" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/Asian_Food_Network.svg",Asian Food Network HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="davinci" group-title="KENH NUOC NGOAI" tvg-logo="https://www.davincikids.tv/wp-content/uploads/2019/12/Da-Vinci-Primary-Logo-RGB.png",Da Vinci HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="kbsworld" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/1280px-KBS_World_%282009%29.svg.png",KBS World
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="nhkworld" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1200px-NHK_World.svg.png",NHK World
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="dw" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png",DW
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/dwenglish_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="arirang" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/770px-Arirang.svg.png",Arirang
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/arirang_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cna" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/CNA_new_logo.svg",Channel NewsAsia
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/newsasia_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="france24" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/635px-France24.png",France 24
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/france24_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="tv5mondeas" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/TV5Monde_Logo.svg/1200px-TV5Monde_Logo.svg.png",TV5Monde Asie
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="outdoorc" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Outdoor_Channel_logo_2017.svg/1200px-Outdoor_Channel_logo_2017.svg.png",Outdoor Channel
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="axn" group-title="KENH NUOC NGOAI" tvg-logo="https://img.over-blog-kiwi.com/4/05/99/07/20191228/ob_5dfb77_870885.png",AXN HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="warnertv" group-title="KENH NUOC NGOAI" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/Warner_TV.svg/revision/latest?cb=20191207183909",Warner TV HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cinemaw" group-title="KENH NUOC NGOAI" tvg-logo="https://cinemaworld.asia/wp-content/uploads/2019/11/CMW-gold-logo-for-website-loading.png",Cinema World HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="ftvhd" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Fashion_tv_hd.png",Fashion TV HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cnhd" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",Cartoon Network HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/cartoonnetworkhd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="animax" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/1200px-Animax_logo.svg.png",AnimaX HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/animaxport_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="boomerang" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/35/Boomerang_2014_logo.svg",Boomerang HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="bf" group-title="KENH NUOC NGOAI" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/16/Bftvlogo2019.png/revision/latest/scale-to-width-down/250?cb=20210515091511",Baby First
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cbeebies" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/1200px-CBeebies.svg.png",CBeebies BBC
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cnn" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/2560px-CNN.svg.png",CNN
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/cnn_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="bbcehd" group-title="KENH NUOC NGOAI" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhztlKJf3nOOhGIpetwAg6WleRL5TyRFRq4TnJJlA=s900-c-k-c0x00ffffff-no-rj",BBC Earth HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="bbcwnhd" group-title="KENH NUOC NGOAI" tvg-logo="https://brandslogos.com/wp-content/uploads/thumbs/bbc-world-news-logo-vector.svg",BBC World News HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/bbcnew_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="bbclifes" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/BBC_Lifestyle2.svg/1280px-BBC_Lifestyle2.svg.png",BBC Lifestyle HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="bloomb" group-title="KENH NUOC NGOAI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4tHEzDbbIWS7us9PQYSS_2NW04w5b0lS6OF8wMbOVxFmD_9EupQz7xbmq8yUm6o33M4&usqp=CAU",Bloomberg
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/bloomberg_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="abca" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/1200px-ABC_Australia_logo.svg.png",ABC Australia
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/sdb/australiaplus_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="discovery" group-title="KENH NUOC NGOAI" tvg-logo="https://1000logos.net/wp-content/uploads/2021/05/Discovery-logo.png",Discovery
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="discoveryasia" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Discovery_Asia_logo.svg/1200px-Discovery_Asia_logo.svg.png",Discovery Asia
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="ap" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1200px-2018_Animal_Planet_logo.svg.png",Animal Planet
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="travelliving" group-title="KENH NUOC NGOAI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/TLC-Logo_2016.png",Travel and Living
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/3FZpCTw/thvl1.webp",THVL1 HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/3FZpCTw/thvl1.webp",THVL2 HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/vinhlong2_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/pxfG4Nd/thvl3.webp",THVL3 HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="travelliving" group-title="THVL" tvg-logo="https://i.ibb.co/n33qx5q/thvl4.webp",THVL4 HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+http://livecdn.fptplay.net/hda3/vinhlong4hd_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 group-title="KENH NUOC NGOAI",HBO HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 group-title="KENH NUOC NGOAI",Cinemax
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 group-title="KENH NUOC NGOAI",DreamWorks VN
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda3/dreamworks_vhls.smil/chunklist.m3u8
+#EXTINF:-1 group-title="KENH NUOC NGOAI",WB
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+http://vips-livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc1hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/2S7N7Ns/VTC1-cc.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtc1_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTC1
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtc1_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc2" group-title="3|VTC" tvg-logo="https://i.ibb.co/Jmpt24j/VTC2-cc.webp",VTC2
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC2/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc2_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc3hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/yXPCVtL/VTC3-cc.webp",VTC3
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtc3hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc4hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/gPfD9pT/VTC4-cc.webp",VTC4
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda2/vtc4_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc5hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/cTCLpNY/VTC5-cc.webp",VTC5
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC5/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc5_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc6hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/K0nwDwr/VTC6-cc.webp",VTC6
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC6/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc6_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc7hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/Qb9Rr4f/VTC7-cc.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtc7_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTC7
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC7/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/todaytv_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc8" group-title="3|VTC" tvg-logo="https://i.ibb.co/GvVFLfQ/VTC8-cc.webp",VTC8
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC8/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc8_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc9hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/XzMRc4L/VTC9-cc.webp",VTC9
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC9/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc9_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc10hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/YtrZqN7/VTC10-cc.webp",VTC10
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC10/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc10_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc11" group-title="3|VTC" tvg-logo="https://i.ibb.co/9qRQm9V/VTC11-cc.webp",VTC11
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC11/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc11_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc12hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/92Yxc1W/VTC12-cc.webp",VTC12
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC12/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc12_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc13hd"  group-title="3|VTC" tvg-logo="https://i.ibb.co/Q9X6Cgt/VTC13-cc.webp",VTC13
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtc13_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc14hd" group-title="3|VTC" tvg-logo="https://i.ibb.co/t2zbLSN/VTC14-cc.webp",VTC14
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://vips-livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="vtc16" group-title="3|VTC" tvg-logo="https://i.ibb.co/JjwDsP0/VTC16-cc.webp",VTC16
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+#https://vtc130121.cdn.vnns.io/VTC16/playlist.m3u8
+https://vips-livecdn.fptplay.net/sdb/vtc16_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 group-title="MIENPHI",ANTV HD
+#EXTVLCOPT:http-user-agent="FPTPlay-ExoPlayer/4.21.11 (Linux;Android 11) ExoPlayerLib/2.11.7"
+https://livecdn.fptplay.net/hda2/anninhtv_hls.smil/chunklist_b2500000.m3u8
