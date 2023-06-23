@@ -1,0 +1,31 @@
+/system script
+job remove [find script="cline"];
+remove [find name="cline"];
+add name="cline" source={
+    :global n [/interface pppoe-client print count-only ]
+    :global lanint [/ip address get [/ip address find address~"192.168.1"] interface]
+    :if ([:len $lanint] != 0) do={
+    :for i from=1 to=$n do={
+    :local j ($i+1)
+    :local n ($i+50)
+   /interface vrrp add name=("vr".$i) version=2 interface=$lanint priority=$n vrid=$n
+   /interface list member;add interface=("vr".$i) list=LAN;
+   /ip address add address=("192.168.1.".$j."/23") interface=("vr".$i) comment=("changeline".$i);
+   /ip fi ma add action=mark-connection connection-mark=no-mark dst-address-list=!LAN new-connection-mark=("local-wan".$i) chain=prerouting dst-address-type=!local in-interface=("vr".$i) passthrough=yes comment=("changeline".$i);
+    }}
+}
+:delay 1s
+/interface list member remove [find interface~"vr"];
+/interface vrrp remove [find interface~"bridge"];
+/ip fi man remove [find comment~"changeline"];
+/ip add remove  [find comment~"changeline"];
+/file remove [find name~"cli"];
+:delay 1s
+/system script run cline
+/system script
+job remove [find script="cline"];
+remove [find name="cline"];
+/system script environment
+remove [ find name=LAN ]
+remove [ find name=lanint ]
+remove [ find name=n ]
