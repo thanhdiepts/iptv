@@ -1,0 +1,56 @@
+/system script;job remove [find script="mwan"];remove [find name="mwan"];
+add name="mwan" source={
+    :global n [/interface pppoe-client print count-only];
+    :if ([:len [/ip fi add find address~"192.168"]] = 0) do={/ip fi add;add list=LAN address=192.168.0.0/16;add list=LAN address=172.16.0.0/12;add list=LAN address=10.0.0.0/8;};
+    :if ([:len [/interface list find name="LAN"]] = 0) do={/interface list add name=LAN;;};
+    :global src LAN
+    #/ip add remove  [find comment~"changeline"];
+    #/ip fi man remove [find comment~"changeline"];
+    #/interface vrrp remove [find interface~"bridge"];
+    #/ip fi man remove [find comment~"def: qos"]
+    #/ip fi nat remove [find];
+    /interface list member remove [find interface~"pppoe"];
+    :if ([:len [/interface list find name~"WAN"]] = 0) do={/interface list add name=WAN;};
+    #:global int [/ip address get 0 interface]
+    #:if ([:len $int] != 0) do={
+	###
+        /ip fi ma remove [ find comment~"def: change-mss" ]
+        /ip fi nat remove [ find comment~"def: " ]
+        /ip fi ma remove [ find comment~"def: lb" ]
+        /ip route remove [ find comment~"def: lb" ]
+        #/ip fi ma {
+        #add action=change-mss chain=forward in-interface=all-ppp new-mss=1440 passthrough=yes protocol=tcp tcp-flags=syn tcp-mss=1441-65535 comment="def: change-mss"
+        #add action=change-mss chain=forward new-mss=1440 out-interface=all-ppp passthrough=yes protocol=tcp tcp-flags=syn tcp-mss=1441-65535 comment="def: change-mss"
+        #}
+        /ip fi na add action=masquerade chain=srcnat out-interface-list=WAN comment="def: masquerade";
+		/ip fi na add chain=srcnat action=masquerade src-address-list=LAN dst-address-list=LAN comment="def: hairpin";
+		/ip fi na add chain=dstnat protocol=tcp dst-port=33899 action=dst-nat to-addresses=192.168.1.199 to-ports=3389 disabled=yes dst-address-type=local comment="def: forward port";
+		/ip fi na add chain=dstnat protocol=tcp dst-port=3899 action=dst-nat to-addresses=192.168.1.199 disabled=yes dst-address-type=local comment="def: open port";
+		:for i from=1 to=$n do={
+        /interface list member;add interface=("pppoe-out".$i) list=WAN;
+        /ip fi ma add action=mark-connection chain=input connection-mark=no-mark connection-state=new in-interface=("pppoe-out".$i) new-connection-mark=("wan".$i."-in") comment="def: lb"
+        }
+        :for i from=1 to=$n do={
+        /ip fi ma add action=mark-routing chain=output connection-mark=("wan".$i."-in") new-routing-mark=("wan".$i."-route") comment="def: lb"
+        }
+		:for i from=1 to=$n do={
+        /ip fi ma add action=mark-connection chain=forward connection-mark=no-mark in-interface=("pppoe-out".$i) new-connection-mark=("wan".$i."-local") comment="def: lb"
+        } 
+		:for i from=1 to=$n do={
+        /ip fi ma add action=mark-routing chain=prerouting connection-mark=("wan".$i."-local") in-interface-list=LAN  new-routing-mark=("wan".$i."-route") comment="def: lb"
+        } 		
+		:for i from=1 to=$n do={
+        /ip fi ma add action=mark-connection chain=prerouting in-interface-list=LAN connection-mark=no-mark dst-address-list=!LAN dst-address-type=!local,broadcast new-connection-mark=("local-wan".$i) per-connection-classifier=("both-addresses-and-ports:".$n."/".$i-1) comment="def: lb"
+        }
+        :for i from=1 to=$n do={
+        /ip fi ma add action=mark-routing chain=prerouting connection-mark=("local-wan".$i) in-interface-list=LAN new-routing-mark=("wan".$i."-route") comment="def: lb"
+        /ip route add distance=$i gateway=("pppoe-out".$i) comment=("def: lb WAN".$i)
+        }
+        :for i from=1 to=$n do={
+        /ip route add check-gateway=ping distance=10 gateway=("pppoe-out".$i) routing-mark=("wan".$i."-route") comment=("def: lb WAN".$i)
+        }
+    ###
+}
+/file remove [find name~"mwan"];
+:delay 1s;
+/system script;run mwan;remove [find name="mwan"];job remove [find script="mwan"];
