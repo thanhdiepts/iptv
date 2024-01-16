@@ -1,0 +1,7 @@
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
+#EXTINF:-1 tvg-id="vinhlong1hd" group-title="Local" tvg-logo="https://i.imgur.com/bF1sHjk.png",Vinh Long 1
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong2hd" group-title="Local" tvg-logo="https://i.imgur.com/ceo06Rf.png",Vinh Long 2
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
